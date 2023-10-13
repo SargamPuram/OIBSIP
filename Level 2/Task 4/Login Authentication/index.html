@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <form>
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username"><br><br>
+        <input type="password" id="password" placeholder="Password"><br><br>
+        <button onclick="login()">Login</button>
+    </form>
+
+    <script>
+        function login() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            // Simulate a simple authentication process
+            if (username === 'user' && password === 'password') {
+                alert('Login successful');
+                // Redirect to the secured page or perform other actions here
+            } else {
+                alert('Invalid username or password');
+            }
+        }
+    </script>
+</body>
+</html>
