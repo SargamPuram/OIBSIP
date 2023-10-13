@@ -49,7 +49,7 @@ nav a {
 #hero {
     text-align: center;
     padding: 100px 0;
-    background-image: url('background.jpg'); /* Set your image path here */
+    background-image: url('background.jpg'); 
     background-size: cover;
     background-position: center;
     color: #fff; 
